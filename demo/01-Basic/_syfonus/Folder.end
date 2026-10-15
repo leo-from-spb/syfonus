@@ -1,0 +1,28 @@
+Name	= Folder			; the name of the folder 
+Local	= ~/Folder-L			; the local folder path
+Remote	= ~/Folder-R			; the remote folder
+	+ ~/Folder-X			; an unexistent folder
+
+[All]
+Include	= **/*
+Exclude	= **/.DS_Store
+	+ **/*.bak
+	+ tmp
+
+[Portfolio: folder]			; sometimes we need to sync only one subfolder
+Path	= Portfolio			; path from the Folder root
+
+[Notes: folder]
+Path	= Notes
+
+[Texts: selection]
+Include	= *.txt
+	+ *.md
+
+[Nikon: selection]
+Include	= *.nef
+	+ *.nrw
+
+[Sony: selection]
+Include	= *.arw
+
