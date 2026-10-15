@@ -1,0 +1,21 @@
+# Demo and test data: keep bytes exactly as committed (no EOL conversion)
+demo/** -text
+
+# Binary files: no EOL conversion, no textual diff
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+*.heic binary
+*.heif binary
+*.tif  binary
+*.tiff binary
+*.dng  binary
+*.cr2  binary
+*.cr3  binary
+*.nef  binary
+*.arw  binary
+*.raf  binary
+*.orf  binary
+*.rw2  binary
